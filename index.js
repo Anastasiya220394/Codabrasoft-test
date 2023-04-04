@@ -63,7 +63,7 @@ const validateRepeatPassword = (input, passwordInput) => {
 }
 
 form.addEventListener('submit', async (e) => {
-  e.preventDefault();
+  e.preventDefault(); 
 
   const isValidForm =
   validateName(firstName, 'Имя') &&
